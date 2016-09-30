@@ -1,0 +1,67 @@
+<html>
+<head><title>Vorrent - Downloads Movies, Songs etc..</title></head>
+<style>
+	body {
+		padding-top: 100px;
+		padding-right:40%;
+		padding-left:40%;
+		background : #000000 !important;
+		align:center;
+		font-family: 'Open Sans';
+		font-color:#ffffff !important;
+	}	
+	#search_form {
+		background: #FFA726;
+		padding:50px;
+		width: 400px;
+		border-radius:2px;
+		text-align:center;
+		font-family: 'Open Sans';
+		font-color:#ffffff !important;
+	}
+	input.btn {
+		width:250px !important;
+		text-align: center;
+		margin:10px !important;
+		padding:5px;
+		border-color:#FFA726 !important;
+		border-radius:2px;
+		font-family: 'Open Sans';
+	}
+	#header {
+		width:100%;
+		font-family: 'Open Sans';
+		height:100px;
+		text-align: center;
+		color:#ffffff !important;
+	}
+	label {
+		font-color:#ffffff !important;
+	}
+</style>
+<body>
+	<label id = 'header'><h3>Torrent Downloader &amp; Searching</h3></label><br>
+	<form id = 'search_form' action = 'Vorrent.php' method = 'POST'>
+		<input class = 'btn btn-default' type = 'text' name = 'name' placeholder = 'Search'/><br><br>
+		<label><h5>Movies : </h5></label><br>
+		<input  type = 'checkbox' name = '720p' id = '720p'/>720p
+		<input type = 'checkbox' name = '1080p' id = '1080p'/>1080p
+		<input type = 'checkbox' name = 'CAM' id = 'CAM'/>CAM<br><br>
+		<label><h5>Music : </h5></label><br>
+		<input  type = 'checkbox' name = '160kbps' id = '160Kbps'/>160kbps
+		<input type = 'checkbox' name = '320kbps' id = '320kbps'/>320kbps<br><br>
+		<input class = 'btn' type = 'submit' name = 'submit' value = 'Submit' id = 'submit'/>
+	</form>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Google Font API-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</body>
+</html>
